@@ -1,0 +1,17 @@
+:root {
+  --blue: #002772;
+  --pink: #FDE2FF;
+  --black: #1E1E1E;
+  --purple: #720060;
+  --baby-blue: #D6E6FF;
+  --grey: #3F3F3F;
+  --grey-lighten: #DCDCDC;
+  --white: #FFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
