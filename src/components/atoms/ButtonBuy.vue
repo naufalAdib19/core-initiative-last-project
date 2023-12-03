@@ -5,22 +5,22 @@
 </script>
 
 <template>
-    <button :class="category == 'men\'s clothing' ? 'button-men' : 'button-women' ">Buy Now</button>
+    <button :class="category == 'men\'s clothing' ? 'button_buy_men' : 'button_buy_women' ">Buy Now</button>
 </template>
 
 <style>
-    .button-men, .button-women {
+    .button_buy_men, .button_buy_women {
         width: 259px;
         height: 42px;
         font-size: 20px;
         color: white;
         
     }
-    .button-women {
+    .button_buy_women {
         background-color: var(--purple);
     }
 
-    .button-men {
+    .button_buy_men {
         background-color: var(--blue);
     }
 </style>
