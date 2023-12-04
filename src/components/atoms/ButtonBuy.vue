@@ -14,10 +14,13 @@
         height: 42px;
         font-size: 20px;
         color: white;
+        border: none;
+        outline: none;
         
     }
     .button_buy_women {
         background-color: var(--purple);
+
     }
 
     .button_buy_men {
