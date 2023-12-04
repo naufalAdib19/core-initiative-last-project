@@ -81,7 +81,6 @@
                     data.value = response.data
                     loaders.value = true;
                     state.current_product_category = response.data.category
-                    console.log('a')
                 }).catch(err => {
                     console.log(err)
                 })

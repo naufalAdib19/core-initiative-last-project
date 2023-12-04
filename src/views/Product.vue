@@ -12,8 +12,6 @@
 
 <script lang="ts">
     import { useCounterStore } from '@/stores/counter';
-    import { onMounted, watch, ref } from 'vue';
-    import axios from 'axios';
     import Card from '../components/organisms/Cards.vue'
 
     export default {
